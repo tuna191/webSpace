@@ -1,0 +1,29 @@
+.home__view{
+background: bottom/cover no-repeat url("../../assets/home/background-home-desktop.jpg") ;
+height: 100vw;
+
+}
+@media (min-width:767px){
+    .home__view{
+        background: bottom/cover no-repeat url("../../assets/home/background-home-tablet.jpg") ;
+        height: 100vw;
+        
+        }
+}
+.home__view{
+    position: relative;
+}
+.home__view h5{
+    font-size: 28px;
+    color: var(--font-secondary);
+    margin:  15px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home__view h1{
+    font-size: 40px;
+    color: var(--font-while);
+    margin: 10px 0;
+}
+.home__view--grid{
+    position: absolute;
+}
