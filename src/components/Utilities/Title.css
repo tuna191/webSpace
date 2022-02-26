@@ -1,0 +1,10 @@
+.styleTitle ul{
+    
+}
+.styleTitle li{
+    margin-left:10px ;
+}
+.titleDestination{
+    font-size: 60px;
+    color: var(--font-while);
+}

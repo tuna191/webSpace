@@ -1,29 +1,112 @@
 .home__view{
 background: bottom/cover no-repeat url("../../assets/home/background-home-desktop.jpg") ;
-height: 100vw;
+height: 135vh;
+
 
 }
-@media (min-width:767px){
+@media (max-width:767px){
     .home__view{
         background: bottom/cover no-repeat url("../../assets/home/background-home-tablet.jpg") ;
-        height: 100vw;
+        height: 140vh;
         
         }
 }
-.home__view{
+/* .home__view{
     position: relative;
-}
-.home__view h5{
+} */
+
+
+.home__view h5 {
     font-size: 28px;
     color: var(--font-secondary);
-    margin:  15px 0;
+    margin: 15px 0;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
-.home__view h1{
-    font-size: 40px;
+@media (max-width:767px){
+   
+    .home__view h5 {
+        font-size: 23px;
+        color: var(--font-secondary);
+        margin: 10px 0;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+}
+.home__view h1 {
+    font-size: 140px;
     color: var(--font-while);
-    margin: 10px 0;
+    margin: 24px 0;
+    text-align: center;
 }
-.home__view--grid{
+@media (max-width:767px){
+   
+    .home__view h1 {
+        font-size: 95px;
+        color: var(--font-while);
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+/* .home__view--grid{
     position: absolute;
+    margin-top:160px;
+} */
+@media (max-width:767px){
+    .home__view--grid{
+        position: absolute;
+        margin-top:125px;
+    }
+}
+.home__view__link {
+    background: white;
+    padding: 70px;
+    border-radius: 100%;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--font-black);
+    font-weight: 500;
+    
+    /* margin: 70px 0 20px 0; */
+}
+.home__view__link:hover {
+    transition: all .4s ease-in-out;
+    outline: 6rem solid #ffffff1a;
+   /* background-color: black; */
+}
+
+@media(max-width:767px){
+
+    .home__view__link {
+        background: white;
+        padding: 45px;
+        border-radius: 100%;
+        /* margin: 70px 0 20px 0; */
+    }
+}
+
+@media (max-width:767px){
+   
+    
+    .home__view__link {
+        text-decoration: none;
+        font-size: 17px;
+        color: var(--font-black);
+        font-weight: 500;
+    }
+   
+}
+.home__view__link--container {
+    position: absolute;
+    bottom: 0;
+    margin: -31px 0;
+    padding: 60px;
+}
+@media (max-width:767px){
+    .home__view__link--container {
+        position: absolute;
+        bottom: 0;
+        top: 50%;
+       }
+    
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import "./Gird.css"
 const Gird = (props) => {
     const cssStyle = ["grid__view" , props.className]
     return (

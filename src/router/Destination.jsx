@@ -1,9 +1,10 @@
 import React from 'react';
 
+import Destinationview from '../components/views/DestinationView';
 const Destination = () => {
     return (
         <div>
-            <p>Detination</p>
+            <Destinationview/>
         </div>
     );
 }

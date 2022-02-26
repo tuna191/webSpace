@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./Navigation.css"
 import { NavLink } from 'react-router-dom';
 const dataBtns = [
@@ -14,8 +14,8 @@ const Navigation = (props) => {
         <div 
         className={
             props.showNavigation
-            ?"hiddeShow"
-            :""
+            ?""
+            :"hiddeShow"
         }
         >
             <ul className='navigation__container'>

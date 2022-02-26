@@ -1,0 +1,21 @@
+
+.descriptionText {
+    text-align: center;
+    width: 56%;
+    margin: auto;
+    color: var(--font-secondary);
+    font-size: 19px;
+    padding-top: 50px;
+    opacity: 0.7;
+}
+
+@media(max-width:767px){
+    .descriptionText {
+        text-align: center;
+        width: 56%;
+        margin: auto;
+        color: var(--font-secondary);
+        font-size: 15px;
+        padding-top: 40px;
+    }
+}
