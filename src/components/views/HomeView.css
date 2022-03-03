@@ -1,13 +1,14 @@
 .home__view{
 background: bottom/cover no-repeat url("../../assets/home/background-home-desktop.jpg") ;
-height: 135vh;
+height: 150vh;
 
 
 }
-@media (max-width:767px){
+@media (max-width:768px){
     .home__view{
         background: bottom/cover no-repeat url("../../assets/home/background-home-tablet.jpg") ;
-        height: 140vh;
+        height: 100vh;
+    
         
         }
 }
@@ -23,7 +24,7 @@ height: 135vh;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
-@media (max-width:767px){
+@media (max-width:768px){
    
     .home__view h5 {
         font-size: 23px;
@@ -39,7 +40,7 @@ height: 135vh;
     margin: 24px 0;
     text-align: center;
 }
-@media (max-width:767px){
+@media (max-width:768px){
    
     .home__view h1 {
         font-size: 95px;
@@ -52,7 +53,7 @@ height: 135vh;
     position: absolute;
     margin-top:160px;
 } */
-@media (max-width:767px){
+@media (max-width:768px){
     .home__view--grid{
         position: absolute;
         margin-top:125px;
@@ -75,7 +76,7 @@ height: 135vh;
    /* background-color: black; */
 }
 
-@media(max-width:767px){
+@media(max-width:768px){
 
     .home__view__link {
         background: white;
@@ -85,7 +86,7 @@ height: 135vh;
     }
 }
 
-@media (max-width:767px){
+@media (max-width:768px){
    
     
     .home__view__link {
@@ -97,16 +98,13 @@ height: 135vh;
    
 }
 .home__view__link--container {
-    position: absolute;
-    bottom: 0;
-    margin: -31px 0;
+    margin: 70px 0;
     padding: 60px;
 }
-@media (max-width:767px){
+@media (max-width:768px){
     .home__view__link--container {
-        position: absolute;
-        bottom: 0;
-        top: 50%;
+        margin: 70px 0;
+    padding: 60px;
        }
     
 }

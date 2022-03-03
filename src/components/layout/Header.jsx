@@ -26,6 +26,7 @@ const Header = () => {
                 mediaQuery && (
                     <button
                     onClick ={showNavigationHandler}
+                    className="btnBar"
                     >
                     <span>
                         {

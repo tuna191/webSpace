@@ -14,7 +14,10 @@ const Homeview = () => {
                <section>
                <h5>SO YOU WANT TO GO TO</h5>
                 <h1>Space</h1>
-                <Description text={text}/>
+                <Description 
+                text={text} 
+                className="styleHomeDes"
+                />
                </section>
                <div className='home__view__link--container'>
                 <Link to="/destination" className = "home__view__link">

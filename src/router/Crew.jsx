@@ -1,10 +1,8 @@
 import React from 'react';
-
+import CrewView from "../components/views/CrewView";
 const Crew = () => {
     return (
-        <div>
-            <p>Crew</p>
-        </div>
+        <CrewView/>
     );
 }
 

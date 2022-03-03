@@ -1,10 +1,19 @@
-.styleTitle ul{
-    
-}
+
 .styleTitle li{
     margin-left:10px ;
 }
 .titleDestination{
     font-size: 60px;
     color: var(--font-while);
+}
+.dataCrewPosititon{
+    font-size: 26px;
+    color: var(--font-secondary);
+    margin-bottom: 20px;
+}
+.dataTechName{
+    margin: 5px 0 10px 0;
+    font-size: 25px;
+    color: var(--font-while);
+
 }

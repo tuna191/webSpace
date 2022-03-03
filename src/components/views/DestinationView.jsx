@@ -22,7 +22,7 @@ const Destinationview = () => {
                 <h2 className="titleDes">{titleDestination}</h2>
                 <Pageimg 
                 data={dataImgDestination[event].img} 
-               
+                className="imgDestination"
                 />
                 <div className='titledestination'>
                     <ul>
@@ -43,7 +43,10 @@ const Destinationview = () => {
                     </ul>
                 </div>
             <Title className="titleDestination" data={dataTitleDestination[event].title}/>
-            <Description text={dataDestination[event].para}/>
+            <Description 
+            text={dataDestination[event].para}
+            className="styleParaDes"
+            />
             <hr className="hr"/>
             <div className='infoDestination'>
                 <div className='infoDestination__distance'>

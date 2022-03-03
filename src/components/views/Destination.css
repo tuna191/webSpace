@@ -1,10 +1,14 @@
 .destinationView{
-    background: bottom/cover no-repeat url("../../assets/destination/background-destination-desktop.jpg") ;
-    height: 150vh;
+    background:   bottom/cover no-repeat url("../../assets/destination/background-destination-desktop.jpg")   ;
+    height: 200vh;
+    
+    
 }
-@media (max-width:767px){
+@media (max-width:768px){
     .destinationView{
         background: bottom/cover no-repeat url("../../assets/destination/background-destination-tablet.jpg");
+        height: 100vh;
+        
     }
 }
 .titleDes {

@@ -1,0 +1,39 @@
+.titleCrew{
+    margin:0 141px 50px 0 ;
+    color : var(--font-while);
+    font-size: 21px;
+}
+.crewNumber {
+    font-size: 33px;
+    color: var(--font-while);
+    
+}
+.crewView{
+    background:  bottom/cover  no-repeat url(../../assets/crew/background-crew-desktop.jpg);
+    height: 174vh;
+}
+/* button + button{
+    margin-left: 15px;
+} */
+.activeLinkBtn{
+    padding: 7px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.unActiveBtn{
+    padding: 7px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: var(--font-secondary);
+}
+@media(max-width:768px){
+
+    .crewView{
+        background:  bottom/cover  no-repeat url(../../assets/crew/background-crew-mobile.jpg);
+        height: 100vh;
+    }
+}

@@ -1,10 +1,8 @@
 import React from 'react';
-
+import Technologyview from "../components/views/TechnologyView";
 const Technology = () => {
     return (
-        <div>
-            <p>Technology</p>
-        </div>
+        <Technologyview/>
     );
 }
 
